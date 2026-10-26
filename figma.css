@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #e50914;
+}
+
+header {
+  height: 100vh;
+  background: url(./Assets/image.svg);
+  background-color: rgb(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  object-fit: cover;
+}
+
+nav {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+.nav-btns {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-btns button:nth-of-type(1) {
+  padding: 0.8rem;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.nav-btns button:nth-of-type(2) {
+  background-color: var(--primary-color);
+  cursor: pointer;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  width: 84px;
+}
+
+.hero-section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 110vh;
+  margin-top: -10rem;
+}
+
+.hero-section div {
+  max-width: 500px;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+}
+
+.hero-section h3 {
+  margin: 1rem 0rem;
+}
+
+.hero-section p {
+  margin: 0.7rem;
+}
+
+.hero-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-form input {
+  padding: 0.8rem 0.4rem;
+  width: 70%;
+  border: none;
+}
+
+.hero-form button {
+  padding: 0.8rem 0.4rem;
+  width: 30%;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.Enjoy {
+  background-color: black;
+  height: 20rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 25rem 28rem 0rem 18rem;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.stuff {
+  color: white;
+  max-width: 22rem;
+  margin-top: -10rem;
+}
+
+.Enjoy div:nth-of-type(1) h3 {
+  padding-top: 1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+}
+
+.tv {
+  position: relative;
+  z-index: 10;
+}
+
+.pic {
+  transform: translate(4.35rem, -20rem);
+}
+
+.Download {
+  background-color: black;
+  /* height: 30rem; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem 28rem 0rem 18rem;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.text2 {
+  color: white;
+  max-width: 22rem;
+  margin-top: -10rem;
+}
+
+.text2 div:nth-of-type(1) h3 {
+  padding-top: 1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+}
+
+.img2-0 {
+  transform: translate(4rem, -10.5rem);
+}
+
+.Watch {
+  background-color: black;
+  /* height: 30rem; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 28rem 0rem 18rem;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.text3 {
+  color: white;
+  max-width: 22rem;
+  margin-top: -10rem;
+}
+
+.text3 div:nth-of-type(1) h3 {
+  padding-top: 1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+}
+
+.img3 {
+  position: relative;
+  z-index: 20;
+}
+
+.img3-0 {
+  position: relative;
+  transform: translate(6.4rem, -24.7rem);
+  z-index: 10;
+}
+
+.Profile {
+  background-color: black;
+  /* height: 30rem; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 28rem 0rem 18rem;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.text4 {
+  color: white;
+  max-width: 22rem;
+  /* margin-top: -10rem; */
+}
+
+.text4 div:nth-of-type(1) h3 {
+  padding-top: 1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+}
+
+.FAQ h1 {
+  background-color: black;
+  color: rgb(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+.Frequent {
+  background-color: black;
+  color: rgb(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.41rem;
+}
+
+.FAQ h1 {
+  padding: 12rem 0rem 1.5rem;
+}
+
+.Frequent h3 {
+  border: none;
+  background-color: rgb(48, 48, 48);
+  padding: 1rem 0rem 1rem;
+  width: 30%;
+  padding-left: 1.5rem;
+  font-size: 0.95rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Frequent h3 i {
+  color: rgb(255, 255, 255, 0.4);
+  padding-right: 2rem;
+}
+
+.Place {
+  padding-top: 5rem;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Place p {
+  margin: 0.7rem;
+}
+
+.Session {
+  display: flex;
+  align-items: center;
+  width: 35%;
+}
+
+.Session input {
+  padding: 0.8rem 0.4rem;
+  width: 70%;
+  border: none;
+}
+
+.Session button {
+  padding: 0.8rem 0.4rem;
+  width: 30%;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
